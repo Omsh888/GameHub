@@ -8,17 +8,17 @@
 html,
 body {
   height: 100%;
+  background-color: #f4f4f4;
 }
 
 /* Body styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #666;
-  background-image: url('./images/pc-gaming-setup.avif');
+  background-image: url('./images/dark-street-background.avif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   min-height: 100vh;
 }
 
@@ -82,7 +82,8 @@ body {
 /* Main menu styling */
 .menu {
   text-align: center;
-  background-image: url('./images/Online-gaming.webp');
+  background-color: #080707;
+  background-image: url('./images/black-hexagon-honeycomb.avif');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -103,8 +104,7 @@ iframe {
   border-radius: 1em;
   width: 334px;
   height: 200px;
-  border: 2px solid white;
-  border-style: dashed;
+  /* border: 2px dashed white; */
 }
 
 .card {
@@ -112,6 +112,7 @@ iframe {
   width: 400px;
   height: 250px;
   text-align: center;
+  margin: 1rem 0px;
 }
 
 .card h3 {
