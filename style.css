@@ -65,13 +65,15 @@ body {
   padding-bottom: 7rem;
 }
 
-#updiv, #downdiv {
+#updiv,
+#downdiv {
   height: 50%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   position: relative;
 }
+
 .letters {
   /* background-color: #ddc5c5; */
   cursor: pointer;
@@ -92,11 +94,10 @@ body {
   padding-bottom: 0.1em;
 }
 
-.menu > .game-cards {
+.menu>.game-cards {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /* gap: 1em; */
   /* margin-top: 400px; */
 }
 
@@ -105,6 +106,13 @@ iframe {
   width: 334px;
   height: 200px;
   /* border: 2px dashed white; */
+}
+
+.iframebutton {
+  padding: 2px 5px 2px 5px;
+  margin-top: 5px;
+  background-color: rgb(97, 91, 92);
+  color: #fff;
 }
 
 .card {
@@ -135,7 +143,7 @@ iframe {
   margin: 1.5em;
 }
 
-.aboutdiv > h2 {
+.aboutdiv>h2 {
   margin-bottom: .5em;
 }
 

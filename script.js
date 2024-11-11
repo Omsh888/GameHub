@@ -23,3 +23,22 @@ document.querySelectorAll('.letters').forEach(letter => {
         letter.style.transform = originalStyle.transform || 'translate(0, 0)';
     });
 });
+
+function goFullscreen(idname) {
+    const element = document.getElementById(idname);
+    if (element) {
+        if (element.requestFullscreen) {
+            element.requestFullscreen();
+        } else if (element.mozRequestFullScreen) { // Firefox
+            element.mozRequestFullScreen();
+        } else if (element.webkitRequestFullscreen) { // Chrome, Safari, Opera
+            element.webkitRequestFullscreen();
+        } else if (element.msRequestFullscreen) { // IE/Edge
+            element.msRequestFullscreen();
+        } else {
+            console.error('Fullscreen API is not supported in this browser');
+        }
+    } else {
+        console.error(`Element with id '${idname}' not found`);
+    }
+}
