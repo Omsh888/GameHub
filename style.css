@@ -19,7 +19,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 /* Navbar styling */
@@ -59,27 +59,31 @@ body {
 
 /* Style for the container box */
 #container {
-  height: 550px;
+  height: 100%;
   color: #fff;
   font-size: 80px;
   padding-bottom: 7rem;
 }
 
-#updiv,
-#downdiv {
+.outbox {
+  display: flex;
   height: 50%;
+}
+
+.site {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  position: relative;
-}
+  /* position: relative; */
+} 
 
-#updiv {
-  margin: 0px 200px;
-}
 
 #downdiv {
-  margin: 0px 500px;
+  margin: 0px auto;
+  width: 50%;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
 .letters {
@@ -98,7 +102,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  padding-top: 3em;
+  padding-top: 2em;
   padding-bottom: 0.1em;
 }
 
