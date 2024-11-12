@@ -28,7 +28,7 @@ body {
   color: #fff;
   padding: 1em;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -74,11 +74,19 @@ body {
   position: relative;
 }
 
+#updiv {
+  margin: 0px 200px;
+}
+
+#downdiv {
+  margin: 0px 500px;
+}
+
 .letters {
   /* background-color: #ddc5c5; */
   cursor: pointer;
   position: relative;
-  transition: transform 1s ease, left 1s ease, top 1s ease;
+  transition: transform 2s ease, left 2s ease, top 2s ease;
 }
 
 /* Main menu styling */
