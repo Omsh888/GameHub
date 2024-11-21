@@ -125,6 +125,7 @@ iframe {
   margin-top: 5px;
   background-color: rgb(97, 91, 92);
   color: #fff;
+  border: none;
 }
 
 .card {
